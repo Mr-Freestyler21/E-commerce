@@ -260,3 +260,122 @@ body{
   color: var(--caramel);
   font-weight: 700;
 }
+.customer-review{
+  padding: 7rem 0;
+  background-color: var(--cream);
+}
+.font-heading{
+  text-align: center;
+  font-weight: 700;
+  font-family: var(--font-heading);
+}
+.testimony{
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width:760px) {
+  .testimonyy{
+      margin-left: -20px;
+  }
+  
+}
+.first-testimony{
+  background-color: white;
+  width: 300rem;
+  height: 12rem;
+  padding-top: 30px;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+.first-testimony p{
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+@media (max-width:450px) {
+  .first-testimony{
+    margin-top: 50px;
+  }
+}
+.spec{
+  width: 100000rem;
+}
+@media (min-width:760px) {
+  .spec{
+    margin-right: -40px;
+  }
+}
+@media (min-width:760px) {
+  .specc{
+    margin-left: 30px;
+    margin-right: -50px;
+  }
+}
+.signup-section{
+  width: 100%;
+  padding: 6rem 0;
+  text-align: center;
+  background-color: var(--milk);
+}
+.cont p{
+  color: var(--coffee-80);
+  font-size: 20px;
+}
+.signup-button{
+  height: 50px;
+  border: none;
+  padding-left: 20px;
+  flex-grow: 1;
+  outline: none;
+  background-color: var(--white);
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+}
+input::placeholder{
+  padding-left: 30px;
+}
+.submit{
+  color: var(--white);
+  background-color: var(--caramel);
+  border: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+  width: 120px;
+  height: 50px;
+  padding: 0 20px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ;
+}
+.submit:hover{
+  background-color: var(--caramel-dark);
+}
+.signup-form{
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid var(--stone-300);
+  border-radius: 9999px;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  .signup-form{
+    flex-direction: column;
+    max-width: 400px;
+    border: none;
+    border-radius: 0;
+  }
+  .signup-button{
+    margin-bottom: 1rem;
+    border: 1px solid var(--stone-300);
+    border-radius: 9999px;
+  }
+  .submit{
+    width: 100%;
+    height: 50px;
+    border-radius: 9999px;
+  }
+}
