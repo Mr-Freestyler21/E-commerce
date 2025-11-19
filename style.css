@@ -131,7 +131,6 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-left:80px;
 }
 .phy-i{
   padding-top: 60px;
@@ -139,11 +138,10 @@ body{
 }
 @media (max-width:450px) {
   .phy-i{
-    margin-left: -35px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-  }
-  .phy-i h3{
-    padding-left: 40px;
+    max-width: 300px;
   }
 }
 .goodness{
