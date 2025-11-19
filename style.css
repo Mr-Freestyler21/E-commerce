@@ -1,14 +1,14 @@
 :root {
   /* Colors */
-  --cream: #fdfaf6 !important;       /* Main background */
-  --coffee: #44403c !important;      /* Main text (stone-800) */
-  --caramel: #d97706 !important;     /* Primary buttons & accents (amber-600) */
-  --caramel-dark: #b45309 !important;/* Button hover (amber-700) */
-  --milk: #f8f7f5 !important;        /* Lighter background (stone-50) */
+  --cream: #fdfaf6 !important;  
+  --coffee: #44403c !important; 
+  --caramel: #d97706 !important;     
+  --caramel-dark: #b45309 !important;
+  --milk: #f8f7f5 !important;
   --white: #ffffff !important;
-  --stone-100: #f5f5f4 !important;    /* Borders */
-  --stone-200: #e7e5e4 !important;    /* Borders */
-  --stone-300: #d6d3d1 !important;    /* Input border */
+  --stone-100: #f5f5f4 !important; 
+  --stone-200: #e7e5e4 !important;   
+  --stone-300: #d6d3d1 !important;   
   
   /* Text Opacity */
   --coffee-70: rgba(68, 64, 60, 0.7) !important;
@@ -142,6 +142,7 @@ body{
     margin-right: auto;
     text-align: center;
     max-width: 300px;
+    padding-top: 70px;
   }
 }
 .goodness{
