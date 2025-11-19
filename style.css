@@ -137,6 +137,18 @@ body{
   padding-top: 60px;
   margin-bottom: 50px;
 }
+@media (max-width:450px) {
+  .phy-i{
+    margin-left: -35px;
+    text-align: center;
+  }
+  .phy-i h3{
+    padding-left: 40px;
+  }
+}
+.goodness{
+  display: flex;
+}
 .phy-i icon{
   width: 3rem;
   height: 3rem;
