@@ -116,6 +116,7 @@ body{
 .philosophy-section{
   padding: 4rem 0;
   background-color: var(--milk);
+  border-top: 1px solid transparent;
 }
 .phy-i h3{
   display: flex;
@@ -142,7 +143,7 @@ body{
     margin-right: auto;
     text-align: center;
     max-width: 300px;
-    padding-top: 70px;
+    padding-top: 30px;
   }
 }
 .goodness{
