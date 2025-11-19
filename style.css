@@ -116,8 +116,6 @@ body{
 .philosophy-section{
   padding: 4rem 0;
   background-color: var(--milk);
-  border-top: 1px solid transparent;
-  padding-top: 50px;
 }
 .phy-i h3{
   display: flex;
